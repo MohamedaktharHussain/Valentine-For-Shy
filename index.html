@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For You 💜</title>
+
+<link rel="stylesheet" href="style.css">
+
+<!-- Urdu font -->
+<link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- LOGIN SCREEN -->
+<div id="loginScreen" class="loginBody">
+    <div class="loginBox">
+        <h1>💌 Secret Message</h1>
+        <p>Enter the password</p>
+
+        <input type="password" id="password" placeholder="Password">
+        <button id="enterBtn">Open ❤️</button>
+        <p id="error"></p>
+    </div>
+</div>
+
+<!-- MAIN WEBSITE -->
+<div id="mainSite" style="display:none;">
+
+<div class="screen">
+
+    <h1 class="name">Linda Shaline 💜</h1>
+    <h3 class="nick">(Khadija 🥰)</h3>
+
+    <p class="salam">Assalamu Alaikum jea 🫂</p>
+
+    <p class="text">
+        I want to ask you something...
+        <br><br>
+        🫂🍃🪻💟🫳🏻🤟🏻
+        <br><br>
+        Meow meow 😘
+        <br><br>
+        <span class="urdu">تم سے پیار ہے ❤</span>
+        <br><br>
+        Will you be my Valentine? 🌹💌
+    </p>
+
+    <div class="btn-area">
+        <button id="yesBtn">YES 😍</button>
+        <button id="noBtn">NO 😒</button>
+    </div>
+
+    <!-- LOVE LETTER -->
+    <div id="loveLetter" class="letter">
+        <h2>💌 A Message For You</h2>
+        <p>
+        You are my happiness and my peace 💜 <br>
+        I want you in all my tomorrows 🌙✨
+        </p>
+    </div>
+
+    <!-- PHOTO ALBUM -->
+    <div id="album" class="hidden">
+        <h2>📸 Our Memories</h2>
+        <div class="gallery" id="gallery"></div>
+    </div>
+
+    <!-- VIDEO -->
+    <div id="videoSection" class="hidden">
+        <h2>🎬 Our Video</h2>
+        <video controls>
+            <source src="video/love.mp4" type="video/mp4">
+        </video>
+    </div>
+    <h2 id="result"></h2>
+
+</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

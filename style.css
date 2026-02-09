@@ -1,0 +1,164 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* LOGIN SCREEN */
+
+.loginBody{
+    background: linear-gradient(180deg,#14001f,#2b004d,#000000);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    color:white;
+}
+
+.loginBox{
+    width:90%;
+    max-width:320px;
+    background:rgba(0,0,0,0.7);
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 0 20px #a64dff;
+}
+
+.loginBox input{
+    width:100%;
+    padding:12px;
+    margin:12px 0;
+    border:none;
+    border-radius:8px;
+}
+
+.loginBox button{
+    width:100%;
+    padding:12px;
+    background:#a64dff;
+    color:white;
+    border:none;
+    border-radius:10px;
+}
+
+#error{
+    color:#ff8080;
+}
+
+/* MAIN PAGE */
+
+body{
+    background: linear-gradient(180deg,#14001f,#2b004d,#000000);
+    color:white;
+}
+
+.screen{
+    min-height:100vh;
+    padding:25px 18px;
+    text-align:center;
+}
+
+.name{
+    color:#e0b3ff;
+    font-size:28px;
+    margin-top:10px;
+}
+
+.nick{
+    color:#ffcfff;
+    margin-bottom:15px;
+}
+
+.salam{
+    font-size:20px;
+    margin:10px 0 15px 0;
+}
+
+.text{
+    font-size:18px;
+    line-height:1.7;
+    padding:0 10px;
+}
+
+.urdu{
+    font-family:'Noto Naskh Arabic', serif;
+    font-size:22px;
+    color:#ff9cf5;
+    font-weight:bold;
+}
+
+.gif{
+    width:170px;
+    border-radius:14px;
+    margin:15px 0;
+}
+
+.btn-area{
+    position:relative;
+    height:120px;
+}
+
+button{
+    padding:14px 26px;
+    font-size:18px;
+    border:none;
+    border-radius:12px;
+}
+
+#yesBtn{
+    background:#a64dff;
+    color:white;
+}
+
+#noBtn{
+    background:black;
+    color:white;
+    position:absolute;
+    left:60%;
+}
+
+.letter{
+    display:none;
+    margin-top:20px;
+    padding:18px;
+    background:rgba(20,0,35,0.85);
+    border-radius:15px;
+    border:1px solid #b266ff;
+}
+
+video{
+    width:100%;
+    border-radius:15px;
+    margin-top:15px;
+}
+
+/* SCROLLING PHOTO ALBUM */
+
+.gallery{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+    margin-top:15px;
+}
+
+.photoBox{
+    width:100%;
+    padding:6px;
+    background:rgba(255,255,255,0.05);
+    border-radius:14px;
+}
+
+.photoBox img{
+    width:100%;
+    border-radius:12px;
+}
+
+.hidden{
+    display:none;
+}
+
+html{
+    scroll-behavior:smooth;
+}
